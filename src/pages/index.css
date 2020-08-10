@@ -1,0 +1,18 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/search/search.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/loader/loader.css);
+@import url(../blocks/circle-preloader/circle-preloader.css);
+@import url(../blocks/no-result/no-result.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/result/result.css);
+@import url(../blocks/showmore/showmore.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/result-background/result-background.css);
+@import url(../blocks/author/author.css);
+@import url(../blocks/footer/footer.css);
+/*
+body {
+  background-color: #F2F2F2;
+}*/

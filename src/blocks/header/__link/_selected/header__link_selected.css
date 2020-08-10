@@ -1,0 +1,17 @@
+.header__link_selected {
+  color: #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
+  padding-bottom: 27px
+}
+
+@media (max-width: 768px) { 
+  .header__link_selected {
+    padding-bottom: 19px;
+  } 
+}
+
+@media (max-width: 414px) { 
+  .header__link_selected {
+    padding-bottom: 17px;
+  } 
+}

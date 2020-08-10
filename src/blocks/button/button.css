@@ -1,0 +1,7 @@
+@import url('../button/_submit/button_submit.css');
+@import url('../button/_simple/button_simple.css');
+
+.button {
+  border-radius: 32px;
+  cursor: pointer;
+}

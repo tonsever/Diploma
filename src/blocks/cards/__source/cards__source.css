@@ -1,0 +1,29 @@
+.cards__source {
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  margin: 0 24px 24px 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #B6BCBF;
+}
+
+.place__paragraph:nth-child(2n) {
+  margin-top: 36px;
+}
+
+@media (max-width: 768px) { 
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 27px;
+  } 
+}
+
+@media (max-width: 414px) { 
+  .place__paragraph {
+    margin: 0 16px 20px 16px;
+  } 
+}
+
