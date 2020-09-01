@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .git__image{
+    height: 48px;
+    width: 48px;
+  } 
+}

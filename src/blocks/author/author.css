@@ -13,6 +13,7 @@
 @media (max-width: 1024px) { 
   .author  {
     max-height: 354px;
+    padding-bottom: 20px;
   } 
 }
 
@@ -20,5 +21,6 @@
   .author {
     max-height: 752px;
     flex-direction: column;
+    padding-bottom: 120px;
   }
 }

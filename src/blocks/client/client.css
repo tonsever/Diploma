@@ -1,0 +1,21 @@
+@import url('./__title/client__title.css');
+@import url('./__description/client__description.css');
+
+
+.client {
+  background-color: #FFFFFF;;
+  max-width: 815px;
+  padding: 80px 104px 104px;
+}
+
+@media (max-width: 1024px) { 
+  .client  {
+    padding: 30px 40px 40px 40px;
+  } 
+}
+
+@media (max-width: 600px) { 
+  .client {
+    padding: 16px;
+  }
+}

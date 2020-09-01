@@ -1,0 +1,17 @@
+.git__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 104px 64px 100px;
+}
+
+@media (max-width: 768px) {
+  .git__header {
+    padding: 40px 40px 32px 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .git__header {
+    padding: 36px 16px 16px 16px;
+  }
+}

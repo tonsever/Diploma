@@ -1,0 +1,23 @@
+.git__button {
+  display: none;
+}
+
+@media (max-width: 320px) {
+  .git__button {
+    display: block;
+    margin: 10px auto 32px auto;
+    width: 288px;
+    height: 56px;
+    background-color: #f5f6f7;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #1A1B22;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0;
+    border: 1px solid #1A1B22;
+    border-radius: 80px;
+    outline: none;
+  }
+}

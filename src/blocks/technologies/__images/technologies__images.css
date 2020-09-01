@@ -1,0 +1,19 @@
+.technologies__images {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+
+@media (max-width: 1024px) { 
+  .technologies__images {
+    width: auto;
+  }
+}
+
+@media (max-width: 600px) { 
+  .technologies__images {
+    flex-wrap: wrap;
+  }
+}
+

@@ -9,9 +9,19 @@
 @import url(../blocks/result/result.css);
 @import url(../blocks/showmore/showmore.css);
 @import url(../blocks/button/button.css);
-@import url(../blocks/result-background/result-background.css);
+@import url(../blocks/background/background.css);
 @import url(../blocks/author/author.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/header/_dark/header_dark.css);
+@import url(../blocks/client/client.css);
+@import url(../blocks/technologies/technologies.css);
+@import url(../blocks/git/git.css);
+@import url(../blocks/swiper-slide-custom/swiper-slide-custom.css);
+@import url(../blocks/swiper-wrapper-custom/swiper-slide-custom.css);
+@import url(../blocks/swiper-pagination-bullet-custom/swiper-pagination-bullet-custom.css);
+@import url(../blocks/swiper-button-next-custom/swiper-button-next-custom.css);
+@import url(../blocks/swiper-button-prev-custom/swiper-button-prev-custom.css);
+/*@import url(../vendor/swiper-container/swiper-bundle.css);
 /*
 body {
   background-color: #F2F2F2;

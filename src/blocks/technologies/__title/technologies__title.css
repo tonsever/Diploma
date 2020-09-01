@@ -1,0 +1,26 @@
+.technologies__title {
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  margin: 0 0 24px 0;
+  max-width: 344px;
+}
+
+@media (max-width: 1024px) { 
+  .technologies__title {
+    font-size: 30px;
+    line-height: 34px;
+    margin: 0 0 40px 0;
+    justify-self: flex-start;
+  }
+} 
+
+@media (max-width: 600px) { 
+  .technologies__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 0 40px 0;
+  }
+}

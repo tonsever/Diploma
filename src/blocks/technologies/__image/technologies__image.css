@@ -1,0 +1,11 @@
+.technologies__image { 
+  width: 120px;
+  height: 153px;
+}
+
+
+@media (max-width: 600px) { 
+  .technologies__image {
+    margin: 0 0 35px 0;
+  }
+}
