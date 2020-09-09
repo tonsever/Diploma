@@ -1,7 +1,6 @@
-.git__image { 
-  margin: 16px 16px 0 0;
-  height: 64px;
-  width: 64px;
+.cards__image { 
+  border-radius: 16px 16px 0 0;
+  margin: 0 0 20px 0;
 }
 
 @media (max-width: 768px) { 

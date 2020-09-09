@@ -21,6 +21,10 @@
 @import url(../blocks/swiper-pagination-bullet-custom/swiper-pagination-bullet-custom.css);
 @import url(../blocks/swiper-button-next-custom/swiper-button-next-custom.css);
 @import url(../blocks/swiper-button-prev-custom/swiper-button-prev-custom.css);
+@import url(../blocks/you-sked/you-sked.css);
+@import url(../blocks/breadcrumb/breadcrumb.css);
+@import url(../blocks/analytics/analytics.css);
+
 /*@import url(../vendor/swiper-container/swiper-bundle.css);
 /*
 body {

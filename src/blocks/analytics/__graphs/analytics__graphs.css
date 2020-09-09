@@ -1,0 +1,29 @@
+.analytics__graphs .analytics__graph:nth-child(1) {
+  width: 15%;
+}
+
+.analytics__graphs .analytics__graph:nth-child(2) {
+  width: 18%;
+}
+
+.analytics__graphs .analytics__graph:nth-child(3) {
+  width: 11%;
+}
+
+.analytics__graphs .analytics__graph:nth-child(4) {
+  width: 39%;
+}
+
+.analytics__graphs .analytics__graph:nth-child(5) {
+  width: 45%;
+}
+
+.analytics__graphs .analytics__graph:nth-child(6) {
+  width: 73%;
+}
+
+.analytics__graphs .analytics__graph:nth-child(7) {
+  width: 34%;
+  margin: 0 0 16px 0;
+}
+

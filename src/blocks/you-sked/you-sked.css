@@ -1,0 +1,18 @@
+@import url('./__title/you-sked__title.css');
+@import url('./__paragrap/you-sked__paragrap.css');
+
+.you-sked {
+  padding: 40px 104px 75px 104px;
+}
+
+@media (max-width: 1024px) { 
+  .you-sked {
+    padding: 32px 40px 40px 40px;
+  } 
+}
+
+@media (max-width: 600px) { 
+  .you-sked {
+    padding: 16px 16px 16px 16px;
+  }
+}

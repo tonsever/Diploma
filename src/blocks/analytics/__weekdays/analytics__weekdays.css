@@ -1,0 +1,19 @@
+.analytics__weekdays {
+  border-top: 1px solid #1A1B22;
+  padding: 0 56px 0 0;
+  width: 6%;
+  padding: 44px 36px 0 0;
+}
+
+@media (max-width: 1200px) { 
+  .analytics__weekdays {
+    width: 9%;
+  } 
+}
+
+@media (max-width: 750px) { 
+  .analytics__weekdays {
+    width: 25%;
+    padding: 16px 36px 0 0;
+  }
+}
