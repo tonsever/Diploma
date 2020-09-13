@@ -8,7 +8,7 @@ ul.breadcrumb {
 /* Отображение элементов списка бок о бок */
 ul.breadcrumb li {
   display: inline;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

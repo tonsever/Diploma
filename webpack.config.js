@@ -16,7 +16,7 @@ module.exports = {
 },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[chunkhash].js'
+    filename: './js/[name].[chunkhash].js'
   },
 
   module: {
@@ -46,7 +46,7 @@ module.exports = {
       {
         test: /\.(jpg|jpeg|png|svg|webp)$/,
         use: [
-          'file-loader',
+          'file-loader?name=./images/[name].[ext]',
           {
             loader: 'image-webpack-loader',
             options: {
@@ -73,7 +73,7 @@ module.exports = {
       template: './src/analytics/index.html',
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].[contenthash].css'
+      filename: './css/[name].[contenthash].css'
     }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,

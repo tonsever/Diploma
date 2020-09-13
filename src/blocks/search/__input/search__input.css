@@ -9,7 +9,7 @@
 }
 
 ::placeholder { 
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -17,6 +17,18 @@
   color: #B6BCBF;
   margin-left: 24px;
  }
+
+ /*.search__input:focus {
+    border: 1px solid #29B0D9;
+}*/
+
+form:focus-within {
+  border: 2px solid #347EFF;
+}
+
+a:focus {
+  outline-color: #347EFF;
+}
 
  @media (max-width: 768px) { 
   .search__input {

@@ -73,3 +73,9 @@
   }
 
 }
+
+.swiper-slide-custom:hover {
+  background-color: rgba(8, 29, 45, 0.1);
+  backdrop-filter: blur(58px);
+  box-shadow: 0 0 15px #000;
+}

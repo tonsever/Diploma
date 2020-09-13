@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div class="search">
+  <section class="search">
     <header class="header">
       <h3 class="header__title">NewsAnalyzer</h3>
       <nav class="header__menu">
@@ -24,27 +24,27 @@
       <h3 class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за
         прошедшую неделю.</h3>
       <form class="search__form">
-        <input type="text" class="search__input" placeholder="Введите тему новости" />
+        <input type="text" class="search__input" placeholder="Введите тему новости" required/>
         <button type="submit" class="button button_submit">Искать</button>
       </form>
     </div>
-  </div>
-  <div class="loader">
+  </section>
+  <section class="loader">
     <i class="circle-preloader"></i>
     <p class="loader__paragrap">Идет поиск новостей...</p>
-  </div>
-  <div class="no-result">
-    <img src="<%=require('./images/image_08.jpg').default%>" alt="грустный смайлик" class="no-result__image">
+  </section>
+  <section class="no-result">
+    <img src="<%=require('./images/not-found.png').default%>" alt="грустный смайлик" class="no-result__image">
     <h3 class="no-result__title">Ничего не найдено</h3>
     <p class="no-result__paragrap">К сожалению по вашему запросу ничего не найдено.</p>
-  </div>
+  </section>
   <div class="background">
-    <div class="result">
+    <section class="result">
       <h3 class="result__title">Результаты поиска</h3>
       <a href="analytics.html" class="result__link">Посмотреть аналитику ></a>
-    </div>
+    </section>
 
-    <div class="cards">
+    <section class="cards">
       <a class="cards__item" href="https://lenta.ru/" target="_blank">
         <img class="cards__image" src="<%=require('./images/image_08.jpg').default%>" alt="изображение по теме новости">
         <p class="cards__date">2 августа, 2019</p>
@@ -72,7 +72,7 @@
           где и сегодня каждый может приобщиться к природе.</p>
         <p class="cards__source">Лента.ру</p>
       </a>
-      <!--<a class="cards__item" href="https://lenta.ru/" target="_blank">
+      <a class="cards__item" href="https://lenta.ru/" target="_blank">
       <img class="cards__image" src="<%=require('./images/image_08.jpg').default%>" alt="изображение по теме новости">
       <p class="cards__date">2 августа, 2019</p>
       <h3 class="cards__title">Национальное достояние – парки</h3>
@@ -98,13 +98,13 @@
         сто лет назад здесь начала складываться система национальных парков – охраняемых территорий,
         где и сегодня каждый может приобщиться к природе.</p>
       <p class="cards__source">Лента.ру</p>
-    </a> -->
-    </div>
-    <div class="showmore">
+    </a> 
+    </section>
+    <section class="showmore">
       <button type="button" class="button button_simple">Показать еще</button>
-    </div>
+    </section>
   </div>
-  <div class="author">
+  <section class="author">
     <img class="author__image" src="<%=require('./images/image-03.png').default%>" alt="фото автора">
     <div class="author__content">
       <h3 class="author__title">Об авторе</h3>
@@ -116,7 +116,7 @@
         потенциальным заказчикам.
       </p>
     </div>
-  </div>
+  </section>
   <footer class="footer">
     <p class="footer__copyright">&copy; 2019. Supersite</p>
     <ul class="footer__links">
@@ -125,11 +125,11 @@
       <li><a href="https://praktikum.yandex.ru/" target="_blank" class="footer__link">Яндекс.Практикум</a></li>
     </ul>
     <ul class="footer__social">
-      <li><a href="https://github.com/tonsever" target="_blank" class="footer__link"><img class="footer__icon"
-            src="<%=require('./images/github.svg').default%>" alt="гитхаб"></a>
+      <li><a href="https://github.com/tonsever" target="_blank">
+        <img class="footer__icon" src="<%=require('./images/github.svg').default%>" alt="гитхаб"></a>
       </li>
-      <li><a href="https://www.facebook.com/yandex.praktikum/" target="_blank" class="footer__link"><img
-            class="footer__icon" src="<%=require('./images/fb.svg').default%>" alt="фейсбук"></a>
+      <li><a href="https://www.facebook.com/yandex.praktikum/" target="_blank">
+        <img class="footer__icon" src="<%=require('./images/fb.svg').default%>" alt="фейсбук"></a>
       </li>
     </ul>
   </footer>
