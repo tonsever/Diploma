@@ -73,7 +73,7 @@ module.exports = {
       template: './src/analytics/index.html',
     }),
     new MiniCssExtractPlugin({
-      filename: './css/[name].[contenthash].css'
+      filename: '[name].[contenthash].css'
     }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,
