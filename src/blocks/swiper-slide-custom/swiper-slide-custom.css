@@ -2,6 +2,7 @@
   padding: 24px 24px 80px 24px;
   background-color: #FFFFFF;
   border-radius: 16px;
+  text-decoration: none;
 }
 
 .swiper-slide-custom:nth-child(2n+1) {
