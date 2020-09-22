@@ -1,0 +1,17 @@
+.analytics__graph {
+  background-color: #2F71E5;
+  color: #FFFFFF;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 0 4px 6px;
+  margin: 0 0 56px 0;
+}
+
+@media (max-width: 600px) { 
+  .analytics__graph {
+    margin: 0 0 24px 0;
+  }
+}

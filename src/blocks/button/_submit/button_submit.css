@@ -1,0 +1,48 @@
+.button_submit {
+  width: 168px;
+  height: 64px;
+  background-color: #2F71E5;
+  box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+  color: #FFFFFF;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0;
+  border: none; 
+  outline: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.button_submit:hover {
+  background: #347EFF;
+  box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+}
+
+.button_submit:active {
+  background-color: #2A65CC;
+  box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+}
+
+.button_submit:focus-within {
+  background-color: #2A65CC;
+}
+
+@media (max-width: 768px) { 
+  .button_submit {
+    width: 160px;
+    height: 56px;
+  }
+} 
+
+@media (max-width: 414px) { 
+  .button_submit {
+    top: 72px;
+    right: 0;
+    height: 56px;
+    width: 288px;
+  } 
+}

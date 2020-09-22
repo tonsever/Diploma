@@ -1,0 +1,11 @@
+@import url('./__swiper-wrapper/swiper-container__swiper-wrapper.css');
+@import url('./__swiper-slide/swiper-container__swiper-slide.css');
+@import url('./__swiper-pagination/swiper-container__swiper-pagination.css');
+@import url('./__swiper-button-prev/swiper-container__swiper-button-prev.css');
+@import url('./__swiper-button-next/swiper-container__swiper-button-next.css');
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}

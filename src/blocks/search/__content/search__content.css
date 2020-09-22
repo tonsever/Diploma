@@ -1,0 +1,16 @@
+.search__content{
+  margin: auto;
+}
+
+@media (max-width: 768px) { 
+  .search__content {
+    max-width: 452px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) { 
+  .search__content {
+    padding: 0 16px 0 16px;
+  }
+} 

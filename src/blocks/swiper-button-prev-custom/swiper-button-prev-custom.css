@@ -1,0 +1,31 @@
+.swiper-button-prev-custom {
+  background-image: url(../../images/slider-control-prev.jpg);
+  background-size: auto;
+  background-position: center;
+  padding-top: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  left: 23px;
+  right: auto;
+  top: 40%;
+  margin-top: calc(-1*var(--swiper-navigation-size)/2);
+  z-index: 10;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) { 
+  .swiper-button-prev-custom {
+    display: none;
+  } 
+}

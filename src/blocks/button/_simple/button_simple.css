@@ -1,0 +1,42 @@
+.button_simple {
+  width: 288px;
+  height: 64px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+  color: #1A1B22;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0;
+  border: none; 
+  outline: none;
+}
+
+.button_simple:hover {
+  background: #C4C4C4;
+  box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+}
+
+.button_simple:focus {
+  border: 2px solid #347EFF;
+}
+
+.button_simple:active {
+  box-shadow: 0px 1px 2px #000000;
+}
+
+@media (max-width: 768px) { 
+  .button_simple {
+    width: 240px;
+    height: 56px;
+  }
+} 
+
+@media (max-width: 414px) { 
+  .button_simple {
+    height: 56px;
+    width: 288px;
+  } 
+}

@@ -1,0 +1,29 @@
+.footer__copyright {
+  margin: 33px 0 25px 104px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #B6BCBF;
+  text-align: right;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1000px) { 
+  .footer__copyright {
+    margin: 45px 0 18px 40px;
+  } 
+}
+
+@media (max-width: 700px) { 
+  .footer__copyright {
+    margin: 45px 0 18px 16px;
+  } 
+}
+
+@media (max-width: 500px) { 
+  .footer__copyright {
+    margin: 0 16px 18px 16px;
+    order: 3;
+  } 
+}

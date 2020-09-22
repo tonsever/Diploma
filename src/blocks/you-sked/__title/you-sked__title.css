@@ -1,0 +1,16 @@
+.you-sked__title {
+  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  margin: 0 0 24px 0;
+}
+
+@media (max-width: 1024px) { 
+  .you-sked__title {
+    font-size: 32px;
+    line-height: 34px;
+  } 
+}
+

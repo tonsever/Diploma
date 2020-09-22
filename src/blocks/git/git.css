@@ -1,0 +1,30 @@
+@import url('./__header/git__header.css');
+@import url('./__title/git__title.css');
+@import url('./__link/git__link.css');
+@import url('./__data/git__data.css');
+@import url('./__date/git__date.css');
+@import url('./__image/git__image.css');
+@import url('./__author/git__author.css');
+@import url('./__mail/git__mail.css');
+@import url('./__comment-text/git__comment-text.css');
+@import url('./__button/git__button.css');
+
+
+.git {
+  background-color: #F5F6F7;
+  padding: 0 0 66px 0;
+  max-width: 1440px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .git {
+    padding: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .git{
+    padding-bottom: 32px;
+  }
+}

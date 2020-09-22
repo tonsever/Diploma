@@ -1,0 +1,11 @@
+.analytics__scale {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 12px 0;
+}
+
+@media (max-width: 600px) { 
+  .analytics__scale {
+    display: none;
+  }
+}

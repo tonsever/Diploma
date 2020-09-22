@@ -1,0 +1,44 @@
+.search__subtitle {
+  max-width: 608px;
+  margin: auto;
+  margin-bottom: 64px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1440px) { 
+  .search__subtitle {
+    max-width: 545px;
+    margin: 0 0 64px 416px;
+  }
+} 
+
+@media (max-width: 1439px) { 
+  .search__subtitle {
+    max-width: 608px;
+    margin: auto;
+    margin-bottom: 64px;
+  }
+}
+
+@media (max-width: 768px) { 
+  .search__subtitle {
+    margin: auto;
+    max-width: 452px;
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 24px;
+  }
+} 
+
+@media (max-width: 414px) { 
+  .search__subtitle {
+    font-size: 20px;
+    line-height: 26px;
+  } 
+}

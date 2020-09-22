@@ -1,0 +1,17 @@
+.client__description {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media (max-width: 1024px) { 
+  .client__description {
+    margin-top:  24px; 
+  }
+  .client__description:nth-child(3) {
+    margin: 0;
+  } 
+}
+

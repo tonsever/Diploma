@@ -1,0 +1,16 @@
+.author__content{
+  margin: 134px 216px 280px 0;
+}
+
+@media (max-width: 1024px) { 
+  .author__content {
+    max-width: 452px;
+    margin: 40px 40px 40px 0;
+  }
+}
+
+@media (max-width: 600px) { 
+  .author__content {
+    margin: 24px 16px 0 16px;
+  }
+} 
