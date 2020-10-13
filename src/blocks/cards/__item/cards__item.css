@@ -1,6 +1,8 @@
 .cards__item {
   /*width: 284px;
   height: 188px;*/
+  display: flex;
+  flex-direction: column;
   max-width: 100%;
   height: auto;
   border-radius: 16px;

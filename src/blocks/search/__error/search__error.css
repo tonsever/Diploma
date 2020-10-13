@@ -1,0 +1,12 @@
+.search__error {
+  font-family: 'Roboto Slab', Arial, Helvetica, Helvetica, sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FF0000;
+  position: absolute;
+  top: 64px;
+  left: 30%;
+  display: none;
+}

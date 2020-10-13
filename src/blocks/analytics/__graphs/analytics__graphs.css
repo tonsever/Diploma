@@ -1,29 +1,29 @@
 .analytics__graphs .analytics__graph:nth-child(1) {
-  width: 15%;
+  width: 1%;
 }
 
 .analytics__graphs .analytics__graph:nth-child(2) {
-  width: 18%;
+  width: 1%;
 }
 
 .analytics__graphs .analytics__graph:nth-child(3) {
-  width: 11%;
+  width: 1%;
 }
 
 .analytics__graphs .analytics__graph:nth-child(4) {
-  width: 39%;
+  width: 1%;
 }
 
 .analytics__graphs .analytics__graph:nth-child(5) {
-  width: 45%;
+  width: 1%;
 }
 
 .analytics__graphs .analytics__graph:nth-child(6) {
-  width: 73%;
+  width: 1%;
 }
 
 .analytics__graphs .analytics__graph:nth-child(7) {
-  width: 34%;
+  width: 1%;
   margin: 0 0 16px 0;
 }
 

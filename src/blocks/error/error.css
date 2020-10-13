@@ -1,7 +1,8 @@
-@import url('./__paragrap/loader__paragrap.css');
+@import url('./__paragrap/error__paragrap.css');
+@import url('./__title/error__title.css');
 
-.loader {
-  height: 282px;
+.error {
+  height: 374px;
   display: flex;
   justify-content: center;
   align-items: center;

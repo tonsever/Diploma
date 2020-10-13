@@ -22,6 +22,11 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        use: { loader: 'babel-loader' },
+        exclude: /node_modules/
+      },
+      {
         test: /\.css$/,
         use: [
           isDev ? 'style-loader'
@@ -62,14 +67,17 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: './src/index.html',
+      chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
       filename: 'about.html',
       template: './src/about/index.html',
+      chunks: ['about'],
     }),
     new HtmlWebpackPlugin({
       filename: 'analytics.html',
       template: './src/analytics/index.html',
+      chunks: ['analytics'],
     }),
     new MiniCssExtractPlugin({
       filename: './css/[name].[contenthash].css'
