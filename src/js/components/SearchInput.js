@@ -2,7 +2,7 @@ export class SearchInput {
   constructor(form) {
     this.form = form;
     this._inputValidate = this._inputValidate.bind(this);
-    this.form.addEventListener('input', this.inputValidate);
+    this.form.addEventListener('input', this._inputValidate);
   }
 
   _inputValidate() {
