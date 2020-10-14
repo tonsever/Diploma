@@ -94,8 +94,8 @@ function showMore() {
   thirdCard += 3;
   cardList.loadCards(dataStorage.getNews().articles.slice(firstCard, thirdCard));
   checkBrokenLinks();
-  //console.log(cards.childNodes.length-1);
-  //console.log(dataStorage.getNews().articles.length);
+  console.log(cards.childNodes.length-1);
+  console.log(dataStorage.getNews().articles.length);
   if (cards.childNodes.length-1 == dataStorage.getNews().articles.length) {
     showMoreButton.classList.remove('button_simple');
     showMoreButton.classList.add('button_disabled');
