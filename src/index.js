@@ -41,7 +41,7 @@ function checkSubmit() {
       renderSection('error', false);
       renderSection('result-background', true);
       formSearch.elements.keyWord.value = dataStorage.getKeyWord();
-      formSearch.querySelector('.button_submit').classList.add('button_active');
+      searchInput.unlockButton();
       cardList.loadCards(dataStorage.getNews().articles.slice(0, 3));
       break;
   }
@@ -79,24 +79,26 @@ function checkBrokenLinks() {
   });
 }
 
-function showMore() {
-  firstCard += 3;
-  thirdCard += 3;
-  cardList.loadCards(dataStorage.getNews().articles.slice(firstCard, thirdCard));
-  checkBrokenLinks();
-  if (cards.childNodes.length-1 == dataStorage.getNews().articles.length) {
-    showMoreButton.classList.remove('button_simple');
-    showMoreButton.classList.add('button_disabled');
-  }
-}
-
 function checkNumberCards() {
   if (cards.childNodes.length-1 == dataStorage.getNews().articles.length) {
     showMoreButton.classList.remove('button_simple');
     showMoreButton.classList.add('button_disabled');
   }
   else {
-    showMoreButton.classList.add('button_simple');
+   showMoreButton.classList.add('button_simple');
+  }
+}
+
+function showMore() {
+  firstCard += 3;
+  thirdCard += 3;
+  cardList.loadCards(dataStorage.getNews().articles.slice(firstCard, thirdCard));
+  checkBrokenLinks();
+  //console.log(cards.childNodes.length-1);
+  //console.log(dataStorage.getNews().articles.length);
+  if (cards.childNodes.length-1 == dataStorage.getNews().articles.length) {
+    showMoreButton.classList.remove('button_simple');
+    showMoreButton.classList.add('button_disabled');
   }
 }
 
