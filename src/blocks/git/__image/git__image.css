@@ -1,5 +1,10 @@
+.git__image {
+  height: 64px;
+  width: 64px;
+} 
+
 @media (max-width: 768px) {
-  .git__image{
+  .git__image {
     height: 48px;
     width: 48px;
   } 

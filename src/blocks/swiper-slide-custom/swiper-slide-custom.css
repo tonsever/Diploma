@@ -7,10 +7,12 @@
 
 .swiper-slide-custom:nth-child(2n+1) {
   width: 352px;
+  height: auto;
 }
 
 .swiper-slide-custom:nth-child(2n) {
   width: 352px;
+  height: auto;
 }
 
 .swiper-slide-custom::after {

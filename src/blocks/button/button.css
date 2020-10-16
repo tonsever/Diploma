@@ -1,7 +1,9 @@
 @import url('../button/_submit/button_submit.css');
 @import url('../button/_simple/button_simple.css');
+@import url('../button/_active/button_active.css');
+@import url('../button/_disabled/button_disabled.css');
 
 .button {
   border-radius: 32px;
-  cursor: pointer;
+  /*cursor: pointer;*/
 }

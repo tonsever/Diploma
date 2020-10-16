@@ -1,10 +1,28 @@
-// import Swiper JS
+import "../vendor/normalize.css";
+import "../pages/index.css";
+import "swiper/swiper-bundle.css";
 import Swiper, { Navigation, Pagination } from 'swiper';
+import { config } from '../js/constants/config.js';
+import { GithubApi } from '../js/modules/GithubApi.js';
+import { prettysDate } from '../js/utils/prettysDate.js';
+import { CommitCard } from '../js/components/CommitCard.js';
+import { CommitCardList } from '../js/components/CommitCardList.js';
+
+const сommits = document.querySelector('.swiper-wrapper');
+
+const createCard = function (link, img, date, name, message, email) {
+  return new CommitCard(link, img, date, name, message, email).createCard();
+};
+
+const githubApi = new GithubApi(config);
+const сommitList = new CommitCardList(сommits, createCard, prettysDate);
+
 
 // configure Swiper to use modules
 Swiper.use([Navigation, Pagination]);
 
 const swiper = new Swiper('.swiper-container', {
+  init: false,
   slidesPerView: 'auto',
   spaceBetween: 16,
   slidesPerGroup: 3,
@@ -64,3 +82,9 @@ const swiper = new Swiper('.swiper-container', {
     }
   }
 })
+
+githubApi.getCommits().then(res => {
+  сommitList.loadCards(res);
+  swiper.init()
+})
+  .catch(err => console.log('ошибка', err));
