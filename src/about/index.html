@@ -12,14 +12,14 @@
 
 <body>
   <header class="header header_dark">
-    <h3 class="header__title header__title_dark">NewsAnalyzer</h3>
+    <a href="index.html" class="header__title header__title_dark">NewsAnalyzer</a>
     <nav class="header__menu">
       <a href="index.html" class="header__link header__link_dark">Главная</a>
       <a href="about.html" class="header__link header__link_selected header__link_selected-dark">О проекте</a>
     </nav>
   </header>
   <section class="client">
-    <h3 class="client__title">Клиентам</h3>
+    <h3 class="client__title">О проекте</h3>
     <p class="client__description">Этот сайт — дипломный проект студента Яндекс.Практикума.
       Его цель — показать, чему научился студент, какими технологиями владеет.
     </p>
@@ -43,7 +43,6 @@
     </p>
     <p class="client__description">
       Проект был проверен экспертами Яндекс.Практикума.
-      Если вашему бизнесу нужен сайт, мы рекомендуем обратиться к этому студенту.
     </p>
   </section>
   <section class="technologies">
@@ -56,16 +55,19 @@
     </div>
   </section>
   <section class="author">
-    <img class="author__image" src="<%=require('../images/image-03.png').default%>" alt="фото автора">
+    <img class="author__image" src="<%=require('../images/ava.jpg').default%>" alt="фото автора">
     <div class="author__content">
       <h3 class="author__title">Об авторе</h3>
-      <p class="author__description">Это блок с описанием автора проекта.
-        Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.
-      </p>
+      <p class="author__description">Здравствуйте!</p>
       <p class="author__description">
-        Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь
-        потенциальным заказчикам.
+        Меня зовут Антон Севериненко. 
+        Как Вы успели заметить из моего резюме у меня нет коммерческого опыта frontend разработки, 
+        но есть огромное желание работать и развивается в этой области. 
+        У меня уже есть удачный опыт смены профессиональной области, а если получилось один раз, получится и второй. 
+        Мечтаю найти команду, которая в меня поверит и даст шанс. 
+        В этом году я закончил курс frontend от Яндекс.Практикум, конечной точкой которого стал этот дипломный проект.
       </p>
+      <p class="author__description">В данный момент изучаю React.</p>
     </div>
   </section>
   <div class="git-background">
@@ -76,136 +78,6 @@
       </div>
       <div class="swiper-container">
         <div class="swiper-wrapper swiper-wrapper-custom">
-         <!-- <a class="swiper-slide swiper-slide-custom"
-            href="https://github.com/tonsever/sprint-11/pull/1#issuecomment-660183165" target="_blank">
-            <p class="git__date">1 августа, 2019</p>
-            <div class="git__data">
-              <img class="git__image" src="<%=require('../images/anton.png').default%>" alt="аватар комментатора">
-              <div class="git__paragraps">
-                <p class="git__author">Антон Долинин</p>
-                <p class="git__mail">anton@yandex.ru</p>
-              </div>
-            </div>
-            <p class="git__comment-text">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly
-              improve your HTML & CSS workflow.</p>
-          </a>
-          <a class="swiper-slide swiper-slide-custom"
-            href="https://github.com/tonsever/sprint-11/pull/1#issuecomment-660183165" target="_blank">
-            <p class="git__date">2 августа, 2019</p>
-            <div class="git__data">
-              <img class="git__image" src="<%=require('../images/anton.png').default%>" alt="аватар комментатора">
-              <div class="git__paragraps">
-                <p class="git__author">Антон Долинин</p>
-                <p class="git__mail">anton@yandex.ru</p>
-              </div>
-            </div>
-            <p class="git__comment-text">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly
-              improve your HTML & CSS workflow.</p>
-          </a>
-          <a class="swiper-slide swiper-slide-custom"
-            href="https://github.com/tonsever/sprint-11/pull/1#issuecomment-660183165" target="_blank">
-            <p class="git__date">3 августа, 2019</p>
-            <div class="git__data">
-              <img class="git__image" src="<%=require('../images/anton.png').default%>" alt="аватар комментатора">
-              <div class="git__paragraps">
-                <p class="git__author">Антон Долинин</p>
-                <p class="git__mail">anton@yandex.ru</p>
-              </div>
-            </div>
-            <p class="git__comment-text">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly
-              improve your HTML & CSS workflow.</p>
-          </a>
-          <a class="swiper-slide swiper-slide-custom"
-            href="https://github.com/tonsever/sprint-11/pull/1#issuecomment-660183165" target="_blank">
-            <p class="git__date">4 августа, 2019</p>
-            <div class="git__data">
-              <img class="git__image" src="<%=require('../images/anton.png').default%>" alt="аватар комментатора">
-              <div class="git__paragraps">
-                <p class="git__author">Антон Долинин</p>
-                <p class="git__mail">anton@yandex.ru</p>
-              </div>
-            </div>
-            <p class="git__comment-text">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly
-              improve your HTML & CSS workflow.</p>
-          </a>
-          <a class="swiper-slide swiper-slide-custom"
-            href="https://github.com/tonsever/sprint-11/pull/1#issuecomment-660183165" target="_blank">
-            <p class="git__date">5 августа, 2019</p>
-            <div class="git__data">
-              <img class="git__image" src="<%=require('../images/anton.png').default%>" alt="аватар комментатора">
-              <div class="git__paragraps">
-                <p class="git__author">Антон Долинин</p>
-                <p class="git__mail">anton@yandex.ru</p>
-              </div>
-            </div>
-            <p class="git__comment-text">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly
-              improve your HTML & CSS workflow.</p>
-          </a>
-          <a class="swiper-slide swiper-slide-custom"
-            href="https://github.com/tonsever/sprint-11/pull/1#issuecomment-660183165" target="_blank">
-            <p class="git__date">6 августа, 2019</p>
-            <div class="git__data">
-              <img class="git__image" src="<%=require('../images/anton.png').default%>" alt="аватар комментатора">
-              <div class="git__paragraps">
-                <p class="git__author">Антон Долинин</p>
-                <p class="git__mail">anton@yandex.ru</p>
-              </div>
-            </div>
-            <p class="git__comment-text">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly
-              improve your HTML & CSS workflow.</p>
-          </a>
-          <a class="swiper-slide swiper-slide-custom"
-            href="https://github.com/tonsever/sprint-11/pull/1#issuecomment-660183165" target="_blank">
-            <p class="git__date">7 августа, 2019</p>
-            <div class="git__data">
-              <img class="git__image" src="<%=require('../images/anton.png').default%>" alt="аватар комментатора">
-              <div class="git__paragraps">
-                <p class="git__author">Антон Долинин</p>
-                <p class="git__mail">anton@yandex.ru</p>
-              </div>
-            </div>
-            <p class="git__comment-text">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly
-              improve your HTML & CSS workflow.</p>
-          </a>
-          <a class="swiper-slide swiper-slide-custom"
-            href="https://github.com/tonsever/sprint-11/pull/1#issuecomment-660183165" target="_blank">
-            <p class="git__date">8 августа, 2019</p>
-            <div class="git__data">
-              <img class="git__image" src="<%=require('../images/anton.png').default%>" alt="аватар комментатора">
-              <div class="git__paragraps">
-                <p class="git__author">Антон Долинин</p>
-                <p class="git__mail">anton@yandex.ru</p>
-              </div>
-            </div>
-            <p class="git__comment-text">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly
-              improve your HTML & CSS workflow.</p>
-          </a>
-          <a class="swiper-slide swiper-slide-custom"
-            href="https://github.com/tonsever/sprint-11/pull/1#issuecomment-660183165" target="_blank">
-            <p class="git__date">9 августа, 2019</p>
-            <div class="git__data">
-              <img class="git__image" src="<%=require('../images/anton.png').default%>" alt="аватар комментатора">
-              <div class="git__paragraps">
-                <p class="git__author">Антон Долинин</p>
-                <p class="git__mail">anton@yandex.ru</p>
-              </div>
-            </div>
-            <p class="git__comment-text">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly
-              improve your HTML & CSS workflow.</p>
-          </a>
-          <a class="swiper-slide swiper-slide-custom"
-            href="https://github.com/tonsever/sprint-11/pull/1#issuecomment-660183165" target="_blank">
-            <p class="git__date">10 августа, 2019</p>
-            <div class="git__data">
-              <img class="git__image" src="<%=require('../images/anton.png').default%>" alt="аватар комментатора">
-              <div class="git__paragraps">
-                <p class="git__author">Антон Долинин</p>
-                <p class="git__mail">anton@yandex.ru</p>
-              </div>
-            </div>
-            <p class="git__comment-text">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly
-              improve your HTML & CSS workflow.</p>
-          </a> -->
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination swiper-pagination-bullet-custom"></div>
@@ -219,7 +91,7 @@
     </section>
   </div>
   <footer class="footer">
-    <p class="footer__copyright">&copy; 2019. Supersite</p>
+    <p class="footer__copyright">&copy; 2020. Anton Severinenko</p>
     <ul class="footer__links">
       <li><a href="index.html" class="footer__link">Главная</a></li>
       <li><a href="about.html" class="footer__link">О проекте</a></li>

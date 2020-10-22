@@ -2,12 +2,14 @@
   margin: 80px 56px 80px 104px;
   height: 464px;
   width: 464px;
+  border-radius: 464px;
 }
 
 @media (max-width: 1024px) { 
   .author__image {
     height: 232px;
     width: 232px;
+    border-radius: 232px;
     margin: 60px 16px 40px 60px;
   } 
 }
@@ -16,6 +18,7 @@
   .author__image {
     height: 272px;
     width: 272px;
+    border-radius: 272px;
     margin: 32px 24px 5px 24px;
   } 
 }

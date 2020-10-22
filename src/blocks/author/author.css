@@ -7,19 +7,16 @@
 .author {
   background-color: #FFFFFF;;
   display: flex;
-  max-height: 624px;
 }
 
 @media (max-width: 1024px) { 
   .author  {
-    max-height: 354px;
     padding-bottom: 20px;
   } 
 }
 
 @media (max-width: 600px) { 
   .author {
-    max-height: 752px;
     flex-direction: column;
     padding-bottom: 120px;
   }
