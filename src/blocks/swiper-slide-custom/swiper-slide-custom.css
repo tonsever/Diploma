@@ -6,12 +6,14 @@
 }
 
 .swiper-slide-custom:nth-child(2n+1) {
-  width: 352px;
+  /*width: 352px;*/
+  width: calc(100%/4);
   height: auto;
 }
 
 .swiper-slide-custom:nth-child(2n) {
-  width: 352px;
+  /*width: 352px;*/
+  width: calc(100%/4);
   height: auto;
 }
 
@@ -39,7 +41,7 @@
 	background: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .swiper-slide-custom {
     padding: 24px 24px 46px 24px;
   }
