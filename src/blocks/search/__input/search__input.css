@@ -26,6 +26,10 @@ form:focus-within {
   border: 2px solid #347EFF;
 }
 
+::-moz-placeholder {  /* Firefox 19+ */
+  line-height: 60px;
+}
+
 a:focus {
   outline-color: #347EFF;
 }

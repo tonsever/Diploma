@@ -4,9 +4,17 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #FF0000;
+  color: #d0ff00;
   position: absolute;
   top: 64px;
   left: 30%;
   display: none;
+}
+
+@media (max-width: 414px) { 
+  .search__error {
+    top: 55px;
+    left: 15%;
+    color: #d0ff00;
+  } 
 }
