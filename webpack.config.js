@@ -12,7 +12,7 @@ module.exports = {
   entry: {
     index: './src/index.js',
     about: './src/about/index.js',
-    analytics: './src/analytics/index.js',
+    dailychart: './src/analytics/index.js',
 },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -75,9 +75,9 @@ module.exports = {
       chunks: ['about'],
     }),
     new HtmlWebpackPlugin({
-      filename: 'analytics.html',
+      filename: 'dailychart.html',
       template: './src/analytics/index.html',
-      chunks: ['analytics'],
+      chunks: ['dailychart'],
     }),
     new MiniCssExtractPlugin({
       filename: './css/[name].[contenthash].css'
