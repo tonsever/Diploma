@@ -1,4 +1,4 @@
-.analytics__graphs .analytics__graph:nth-child(1) {
+/*.analytics__graphs .analytics__graph:nth-child(1) {
   width: 1%;
 }
 
@@ -20,10 +20,9 @@
 
 .analytics__graphs .analytics__graph:nth-child(6) {
   width: 1%;
-}
+}*/
 
 .analytics__graphs .analytics__graph:nth-child(7) {
-  width: 1%;
   margin: 0 0 16px 0;
 }
 

@@ -56,7 +56,7 @@ export class Statistics {
     const inTitle = this.youSked.querySelector('#inTitle');
     const newForWeek = this.youSked.querySelector('#newForWeek');
     const keyWord = this.youSked.querySelector('#keyWord');
-    inTitle.textContent = `Упоминаний в загаловках: ${this._findKeyWord().length}`;
+    inTitle.textContent = `Упоминаний в заголовках: ${this._findKeyWord().length}`;
     newForWeek.textContent = `Новостей за неделю: ${this.news.totalResults}`;
     keyWord.textContent = `Вы спросили: «${this.keyWord}»`;
   }

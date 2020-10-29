@@ -8,10 +8,30 @@
   line-height: 16px;
   padding: 4px 0 4px 6px;
   margin: 0 0 56px 0;
+  width: 1%;
+}
+
+@media (max-width: 1200px) { 
+  .analytics__graph {
+    width: 2%;
+  }
 }
 
 @media (max-width: 600px) { 
   .analytics__graph {
+    width: 3%;
     margin: 0 0 24px 0;
+  }
+}
+
+@media (max-width: 400px) { 
+  .analytics__graph {
+    width: 4%;
+  }
+}
+
+@media (max-width: 320px) { 
+  .analytics__graph {
+    width: 7%;
   }
 }
